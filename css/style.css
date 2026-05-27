@@ -18,13 +18,13 @@ header{
     }
 
 footer{
-    border: 5px dashed red;
+    /* border: 5px dashed red; */
     text-align: center;
     font-weight: bold;
     padding: 0% 0%;
 }
 main {
-    border: 5px dashed purple;
+    /* border: 5px dashed purple; */
     padding: 0% 0%;
     
 }

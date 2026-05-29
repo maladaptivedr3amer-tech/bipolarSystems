@@ -1,47 +1,73 @@
 /* Just to start I freaking hate CSS. It's just so freaking annoying I can't get into it. I'll learn it, but I'll never like it. */
-
+/* To clear the default margins and padding */
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0%  0%;
-    min-height: 100vhw; 
-    min-width: 95vhw;
+    min-height: fit-content; 
+    min-width: fit-content;
 }
 h1{
+    /* border: 1px dashed blue; */
     text-align: center;
-
+    font-size: 3rem;
+    margin: 24px;
+    padding: 24px;
+    
 }
 header{
+    /* border: 1px dashed greenyellow;  */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #d6d1d1;
     padding: 0% 0%;
     }
 
 footer{
-    /* border: 5px dashed red; */
+    /* border: 1px dashed red;  */
     text-align: center;
     font-weight: bold;
-    padding: 0% 0%;
+    margin:24px;
+    padding: 24px;
 }
 main {
-    /* border: 5px dashed purple; */
+    /* border: 1px dashed purple;  */
     padding: 0% 0%;
     
 }
+main p {
+    line-height: 1.5;
+    /* border: 1px solid red; */
+    margin: 8px;
+    padding: 8px;
 
+}
 .main-nav ul {
-
+    /* border: 1px dotted darkblue; */
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0.5rem;
+    padding: 1em;
 }
 .main-nav a{
     color:#333333;
     text-decoration: none;
     font-weight: bold;
 }
+.main-nav li{
+    text-align: justify;
+    /* border: 1px solid green; */
+}
 .main-nav a:hover, .main-nav a:focus-visible {
     color: aqua;
+}
+.construction {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
 }

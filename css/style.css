@@ -48,6 +48,10 @@ main p {
     padding: 8px;
 
 }
+code{
+    display: block;
+    font-size: 1rem;
+}
 .main-nav ul {
     /* border: 1px dotted darkblue; */
     list-style-type: none;
@@ -69,7 +73,7 @@ main p {
 .code{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 550;
-    
+
 }
 .construction {
     text-align: center;

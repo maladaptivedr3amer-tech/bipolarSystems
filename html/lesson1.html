@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Lesson 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Under Construction</title>
 </head>
 <body>
-<header>
-    <!-- Logo and Navigation -->
-</header>
-<main>    
+    <div class="head-wrapper"></div>
+        <header>
+            <nav class="main-nav">
+                <ul class="link-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/lesson1.html">HTML</a></li>
+                    <li><a href="construction.html">CSS</a></li>
+                    <li><a href="construction.html">JavaScript</a></li>
+                </ul>
+            </nav>
+
+            <div class="logoWrapper">
+                <img class="logo" src="../images/bipolarSystems_logo.png" alt="bipolar systems logo" width="175" height="150">        
+            </div>
+
+        </header>
+    </div>
+    
+    <main>    
     <h1>HTML Lesson 1</h1>
-    <section>
+    <article>
         <h2>What is HTML?</h2>
         <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
     
-    </section>
+    </article>
 
-    <section>
+    <article>
         <h2>Key HTML Elements</h2>
         <p>Some key elements to remember are:</p>
         
@@ -27,97 +43,97 @@
                 <th>Description</th>
             </tr>    
             <tr>
-                <td>&lt;!DOCTYPE html&gt;:</td>
+                <td class="code">&lt;!DOCTYPE html&gt;:</td>
                 <td>Tells the browser that it is reading an html 5 document.</td>
             </tr>
             <tr>
-                <td>&lt;html&gt;&lt;/html&gt;:</td>
+                <td class="code">&lt;html&gt;&lt;/html&gt;:</td>
                 <td>Sets the document root. Everything but &lt;!DOCTYPE html&gt; will go in these &lt;html&gt;&lt;/html&gt; tags.</td>
             </tr>
             <tr>
-                <td>&lt;head&gt;&lt;/head&gt;:</td>
+                <td class="code">&lt;head&gt;&lt;/head&gt;:</td>
                 <td>Contains all the meta and things about the document that wont appear in the browser. Nothing that appears in the document will be in the &lt;head&gt;&lt;/head&gt; tags.</td>
             </tr>
           <tr>
-                <td>&lt;title&gt;&lt;/title&gt;:</td>
+                <td class="code">&lt;title&gt;&lt;/title&gt;:</td>
                 <td>Sets the title of the document, which appears in the browser tab and the SEO.</td>
             </tr>
             <tr>
-                <td>&lt;body&gt;&lt;/body&gt;:</td>
+                <td class="code">&lt;body&gt;&lt;/body&gt;:</td>
                 <td>Contains the content of the document, such as text, images, and links.</td>
             </tr>
             <tr>
-                <td>&lt;style&gt;&lt;/style&gt;:</td>
+                <td class="code">&lt;style&gt;&lt;/style&gt;:</td>
                 <td>Used to define CSS styles for the document.</td>
             </tr>
              <tr>
-                <td>&lt;h1&gt; - &lt;h6&gt; Headings:</td>
+                <td class="code">&lt;h1&gt; - &lt;h6&gt; Headings:</td>
                 <td>Used to define headings of different levels in the document.</td>
             </tr>
              <tr>
-                <td>&lt;p&gt;&lt;/p&gt;:</td>
+                <td class="code">&lt;p&gt;&lt;/p&gt;:</td>
                 <td>Used to define paragraphs of text.</td>
             </tr>
             <tr>
-                <td>&lt;strong&gt;&lt;/strong&gt;:</td>
+                <td class="code">&lt;strong&gt;&lt;/strong&gt;:</td>
                 <td>Used to define strong, important text in the document.</td>
             </tr>
             <tr>
-                <td>&lt;em&gt;&lt;/em&gt; Emphasis:</td>
+                <td class="code">&lt;em&gt;&lt;/em&gt; Emphasis:</td>
                 <td>Used to define emphasized text in the document.</td>
             </tr>
             <tr>
-                <td>&lt;a href=”url”&gt;&lt;/a&gt;:</td>
+                <td class="code">&lt;a href=”url”&gt;&lt;/a&gt;:</td>
                 <td>Used to define hyperlinks in the document. The href attribute specifies the URL of the page the link goes to.</td>
             </tr>
              <tr>
-                <td>&lt;ul&gt;&lt;/ul&gt;:</td>
+                <td class="code">&lt;ul&gt;&lt;/ul&gt;:</td>
                 <td>Used to define unordered (bullet) lists in the document.</td>
             </tr>
              <tr>
-                <td>&lt;ol&gt;&lt;/ol&gt;:</td>
+                <td class="code">&lt;ol&gt;&lt;/ol&gt;:</td>
                 <td>Used to define ordered (numbered) lists in the document.</td>
             </tr>
             <tr>
-                <td>&lt;li&gt;&lt;/li&gt;:</td>
+                <td class="code">&lt;li&gt;&lt;/li&gt;:</td>
                 <td>Used to define list items in both ordered and unordered lists.</td>
             </tr>
             <tr>
-                <td>&lt;span&gt;&lt;/span&gt;:</td>
+                <td class="code">&lt;span&gt;&lt;/span&gt;:</td>
                 <td>Used to define a section of text in the document.</td>
             </tr>
             <tr>
-                <td>&lt;img src=”url” alt=”description”&gt;:</td>
+                <td class="code">&lt;img src=”url” alt=”description”&gt;:</td>
                 <td>Used to define images in the document. The src attribute specifies the URL of the image, and the alt attribute provides alternative text for the image.</td>
             </tr>
             <tr>
-                <td>&lt;main&gt;&lt;/main&gt;:</td>
+                <td class="code">&lt;main&gt;&lt;/main&gt;:</td>
                 <td>Used to define the main content of the document. It is a block-level element that can be used to group other elements together.</td>
             </tr>
             <tr>
-                <td>&lt;header&gt;&lt;/header&gt;:</td>
+                <td class="code">&lt;header&gt;&lt;/header&gt;:</td>
                 <td>Used to define the header of the document. It is a block-level element that can be used to group introductory content together.</td>
             </tr>
             <tr>
-                <td>&lt;footer&gt;&lt;/footer&gt;:</td>
+                <td class="code">&lt;footer&gt;&lt;/footer&gt;:</td>
                 <td>Used to define the footer of the document. It is a block-level element that can be used to group concluding content together.</td>
             </tr>
             <tr>
-                <td>&lt;section&gt;&lt;/section&gt;:</td>
+                <td class="code">&lt;section&gt;&lt;/section&gt;:</td>
                 <td>Used to define a section of the document. It is a block-level element that can be used to group related content together.</td>
             </tr>
                 <tr>
-                <td>&lt;article&gt;&lt;/article&gt;:</td>
+                <td class="code">&lt;article&gt;&lt;/article&gt;:</td>
                 <td>Used to define an article in the document. It is a block-level element that can be used to group self-contained content together.</td>
             </tr>
             <tr>
-                <td>&lt;div&gt;&lt;/div&gt;:</td>
+                <td class="code">&lt;div&gt;&lt;/div&gt;:</td>
                 <td>Used to define a division or section in the document. It is a block-level element that can be used to group related content together.</td>
             </tr>
         </table>
-    </section>
+    </article>
    
-    <section>
+    <article>
         <h2>Boilerplate</h2>
         <p>The standard text that’s in all html documents is referred to as a boilerplate. The standard boilerplate is as follows:</p>
                 
@@ -135,13 +151,11 @@
 
         <p>That is the base syntax that should be in all html documents.</p>
     
-    </section>
+    </article>
 </main>
-
-
-<footer>
-    <a href="htmlindex.html">Back to Lessons</a>
-</footer>
-
+    <footer>
+        <p>Copyright &copy; 2024 BipolarFox</p>
+    </footer>
+    
 </body>
 </html>

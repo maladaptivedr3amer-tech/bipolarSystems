@@ -66,6 +66,11 @@ main p {
 .main-nav a:hover, .main-nav a:focus-visible {
     color: aqua;
 }
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    
+}
 .construction {
     text-align: center;
     font-size: 2em;

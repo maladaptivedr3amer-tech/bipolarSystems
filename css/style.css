@@ -22,7 +22,9 @@ h1{
     font-size: 3rem;
     margin: 1rem;
     padding: 1rem;
-    
+        @media (width < 1000px) {
+        font-size: 2rem;
+        } 
 }
 header{
     display: flex;

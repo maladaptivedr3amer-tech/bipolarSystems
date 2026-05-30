@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+    margin: 0px 16px;
     padding: 0%  0%;
     min-height: fit-content; 
     min-width: fit-content;
@@ -75,6 +75,12 @@ code{
     font-weight: 525;
     font-size: 1rem;
 
+}
+.code-indent {
+    text-indent: 4ch;
+}
+.code-content {
+    text-align: center;
 }
 .construction {
     text-align: center;

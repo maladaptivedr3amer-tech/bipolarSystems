@@ -5,6 +5,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+article {
+    margin-bottom: 1em;
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px 16px;

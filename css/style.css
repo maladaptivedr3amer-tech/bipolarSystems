@@ -1,54 +1,51 @@
-/* Just to start I freaking hate CSS. It's just so freaking annoying I can't get into it. I'll learn it, but I'll never like it. */
+/* Just to start I freaking hate CSS. Margin and other sizing uses REM because I want to be use to it.
+1 rem = 16px */
+
 /* To clear the default margins and padding */
 * { 
-    margin: 0%;
-    padding: 0%;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
 }
 article {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px 16px;
-    padding: 0%  0%;
+    margin: 0rem 1rem;
+    padding: 0rem  0rem;
     min-height: fit-content; 
     min-width: fit-content;
 }
 h1{
-    /* border: 1px dashed blue; */
     text-align: center;
     font-size: 3rem;
-    margin: 24px;
-    padding: 24px;
+    margin: 1rem;
+    padding: 1rem;
     
 }
 header{
-    /* border: 1px dashed greenyellow;  */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #d6d1d1;
-    padding: 0% 0%;
+    padding: 0rem 0rem;
     }
 
 footer{
-    /* border: 1px dashed red;  */
     text-align: center;
     font-weight: bold;
-    margin:24px;
-    padding: 24px;
+    margin: 2rem;
+    padding: 2rem;
 }
 main {
-    /* border: 1px dashed purple;  */
-    padding: 0% 0%;
+    padding: 0rem 0rem;
     
 }
 main p {
     line-height: 1.5;
-    /* border: 1px solid red; */
-    margin: 8px;
-    padding: 8px;
+    margin: 0.5rem;
+    padding: 0.5rem;
 
 }
 code{
@@ -56,10 +53,9 @@ code{
     font-size: 1rem;
 }
 .main-nav ul {
-    /* border: 1px dotted darkblue; */
     list-style-type: none;
     margin: 0.5rem;
-    padding: 1em;
+    padding: 0.5rem;
 }
 .main-nav a{
     color:#333333;
@@ -68,7 +64,6 @@ code{
 }
 .main-nav li{
     text-align: justify;
-    /* border: 1px solid green; */
 }
 .main-nav a:hover, .main-nav a:focus-visible {
     color: aqua;
@@ -87,6 +82,6 @@ code{
 }
 .construction {
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
 }

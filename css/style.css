@@ -9,7 +9,7 @@
     font-size: 16px;
 }
 article {
-    background-color: #d6d1d1;
+    background-color: #b4b7b978;
     border-top: 1px solid #333333;
     padding: 0.5rem 10rem;
 }
@@ -60,11 +60,11 @@ code{
     font-size: 1rem;
 }
 .container {
-    background-color: #D1D1CE;
+    background-color: #b4b7b978;
 }
 .main-nav ul {
     list-style-type: none;
-    margin: 0.5rem;
+    margin: 0rem;
     padding: 0.5rem;
 }
 .main-nav a{

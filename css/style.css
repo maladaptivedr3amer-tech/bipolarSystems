@@ -12,7 +12,7 @@ article {
     background-color: #b4b7b978;
     border-top: 1px solid #333333;
     padding: 0.5rem 10rem;
-    
+    /* Fixes padding issue on mobile I noticed */
         @media (width < 1000px) {
             padding: 0.5rem 1rem;
         } 

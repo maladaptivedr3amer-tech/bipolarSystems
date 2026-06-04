@@ -10,21 +10,20 @@
 }
 article {
     background-color: #d6d1d1;
-    border: 3px solid #d1cfcf;
+    border-top: 1px solid #333333;
+    padding: 0.5rem 10rem;
 }
 body{
+    line-height: 1.5;
     border: 3px solid #333333;
     font-family: Verdana, sans-serif;
     margin: 0rem auto;
-    padding: 0rem  0rem;
+    padding: 0rem;
     max-width: 80%;
 }
 h1{
-    background-color: #d6d1d1;
-    border: 3px solid #d1cfcf;
     text-align: center;
     font-size: 3rem;
-    margin: 1rem;
     padding: 1rem;
     /* This is a media query and you really need to lean them now. */
         @media (width < 1000px) {
@@ -61,9 +60,7 @@ code{
     font-size: 1rem;
 }
 .container {
-    border: 3px solid #d1cfcf;
-    background-color: #d1cfcf;
-    margin-bottom: 0rem 1rem 0rem 1rem;
+    background-color: #D1D1CE;
 }
 .main-nav ul {
     list-style-type: none;

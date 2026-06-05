@@ -28,20 +28,20 @@ body {
 }
 
 .site-wrapper {
-  background-color: var(--accent-blue);
+  background-color: var(--site-bg);
   color: var(--text-dark);
   margin: 0 auto;
-  border: 2px solid #333333;
+  border: 2px solid var(--border-color);
   min-height: 100%;
   max-width: 65%;
 }
 
 header {
+  background-color: var(--accent-blue);
+  color: var(--text-dark);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--accent-blue);
-  color: var(--text-dark);
   padding: 0rem 0rem;
 }
 

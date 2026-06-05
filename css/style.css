@@ -2,6 +2,16 @@
 1 rem = 16px */
 
 /* To clear the default margins and padding */
+:root {
+  --page-bg: #0f172a;
+  --site-bg: #ffffff;
+  --section-bg: #f1f5f9;
+  --accent-blue: #38bdf8;
+  --deep-blue: #0369a1;
+  --text-dark: #1e293b;
+  --text-light: #f8fafc;
+  --border-color: #334155;
+}
 * {
   margin: 0rem;
   padding: 0rem;
@@ -10,12 +20,16 @@
 }
 
 body {
+  background-color: var(--page-bg);
+  color: var(--text-dark);
   font-family: Verdana, sans-serif;
   line-height: 1.5;
   font-size: 16px;
 }
 
 .site-wrapper {
+  background-color: var(--accent-blue);
+  color: var(--text-dark);
   margin: 0 auto;
   border: 2px solid #333333;
   min-height: 100%;
@@ -26,13 +40,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #38bdf8;
+  background-color: var(--accent-blue);
+  color: var(--text-dark);
   padding: 0rem 0rem;
 }
 
 article {
-  background-color: #b4b7b978;
-  border-top: 1px solid #333333;
+  background-color: var(--section-bg);
+  border-top: 1px solid var(--border-color);
   /* padding: 0.5rem 10rem; */
 }
 
@@ -43,7 +58,8 @@ h1 {
 }
 
 footer {
-  background-color: #1f4f82;
+  background-color: var(--deep-blue);
+  color: var(--text-light);
   text-align: center;
   font-weight: bold;
   padding: 2rem;
@@ -66,7 +82,7 @@ code {
 }
 
 .main-nav a {
-  color: #333333;
+  color: var(--text-dark);
   text-decoration: none;
   font-weight: bold;
 }
@@ -77,7 +93,7 @@ code {
 
 .main-nav a:hover,
 .main-nav a:focus-visible {
-  color: aqua;
+  color: var(--text-light);
 }
 
 .code {

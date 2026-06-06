@@ -1,2 +1,2 @@
-# theOdinProject
-Projects from The Odin Project so that they dont clutter up my folders.
+# bipolarSystems
+A collection of web design practice pages for Bipolar Systems.

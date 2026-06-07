@@ -39,9 +39,9 @@ header {
   background-color: var(--accent-blue);
   color: var(--text-dark);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 0rem;
 }
 
 article {
@@ -74,11 +74,11 @@ code {
   margin: 0 auto;
   padding: 1rem;
 }
-.main-nav ul {
-  list-style-type: none;
+/* .main-nav ul {
+  list-style-type: none; 
   margin: 0rem;
   padding: 0.5rem;
-}
+} */
 
 .main-nav a {
   color: var(--text-dark);
@@ -94,7 +94,11 @@ code {
 .main-nav a:focus-visible {
   color: var(--text-light);
 }
-
+.link-list {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
 .code {
   font-family: "Courier New", Courier, monospace;
   font-weight: 525;
